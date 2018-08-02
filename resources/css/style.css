@@ -1,0 +1,84 @@
+html{
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin: 0 0 0px;
+  overflow: scroll;
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  font-size: 13px;
+  line-height: 150%;
+  min-width: 340px;
+  height: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+.main-container{
+  display: flex;
+}
+
+.landing-photo-container{
+  max-width: 75%;
+  background-color: black;
+}
+
+img.landing-photo{
+	max-width: 100%;
+  max-height: 100%;
+
+}
+
+.title-link{
+  font-size: 4em;
+  line-height: 1.125em;
+  font-family: 'Bungee Outline', cursive;
+  color: lightgrey;
+}
+
+.tite{
+  text-align: right;
+
+}
+
+.menu{
+  background-color: black;
+  width: 25%;
+  padding: 0em 1em 0em 1em;
+  text-align: right;
+}
+
+.menu-link-container{
+  padding-top: 3em;
+}
+
+.menu-link{
+  padding: 1em;
+  font-family: 'Bungee Outline', cursive;
+  color: white;
+}
+
+.podcast-link{
+  padding-top: .5em;
+  font-size: 2.5em;
+  color: lightgrey;
+}
+
+.connect-link{
+  padding-top: .5em;
+  font-size: 2.5em;
+  color: lightgrey;
+}
+
+
+.insta-link{
+  max-width: 5%;
+
+}
+
+.instasymbol-image{
+  max-width: 12%;
+}
