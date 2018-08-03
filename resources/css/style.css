@@ -46,10 +46,13 @@ img.landing-photo{
   line-height: 1.125em;
   font-family: 'Bungee Outline', cursive;
   color: lightgrey;
+  padding-top: .5em;
+  padding-right: .5em;
 }
 
 .tite{
   text-align: right;
+
 
 }
 
@@ -61,7 +64,7 @@ img.landing-photo{
 }
 
 .menu-link-container{
-  padding-top: 3em;
+  padding-top: 7.5em;
 }
 
 .menu-link{
@@ -71,7 +74,8 @@ img.landing-photo{
 }
 
 .podcast-link{
-  padding-top: .5em;
+  padding-top: 5em;
+  padding-right: .5em;  
   font-size: 2.5em;
   color: lightgrey;
   text-decoration: none;
@@ -89,6 +93,7 @@ img.landing-photo{
 
 .connect-link{
   padding-top: .5em;
+  padding-right: .5em;
   font-size: 2.5em;
   color: lightgrey;
   -webkit-transition: all 0.5s;
@@ -103,9 +108,16 @@ img.landing-photo{
   animation: neon3 1.5s ease-in-out infinite alternate;  
 }
 
+.insta-menu-link{
+  padding-top: 10em;
+}
+
 
 .insta-link{
+  opacity: .75;
   max-width: 5%;
+  padding-right: 1.5em;
+  padding-top: 0em;
 
 }
 
