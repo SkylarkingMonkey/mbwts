@@ -4,6 +4,7 @@ html{
 }
 
 body {
+  display: block;
   margin: 0 0 0px;
   overflow: scroll;
   font-family: "Trebuchet MS", Verdana, sans-serif;
@@ -17,18 +18,22 @@ a{
   text-decoration: none;
 }
 
-.main-container{
+.top-container{
   display: flex;
+  border-bottom: 3px solid lightgrey;
 }
 
 .landing-photo-container{
   max-width: 75%;
   background-color: black;
+  padding-bottom: -25px;
 }
 
 img.landing-photo{
+  display: block;
 	max-width: 100%;
   max-height: 100%;
+  min-height: 100%;
 
 }
 
@@ -82,3 +87,73 @@ img.landing-photo{
 .instasymbol-image{
   max-width: 12%;
 }
+
+.next-bottle-banner{
+  font-family: 'Bungee Outline', cursive;
+  background-color: black;
+  color: lightgrey;
+  text-align: center;
+  font-size: 3.5em;
+  letter-spacing: .25em;
+  padding: 2.5em;
+  border-bottom: 3px solid lightgrey;
+}
+
+.coming-wine{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding-top: 6em;
+  padding-bottom: 6em;
+}
+
+.coming-wine-graphic{
+  max-width: 20%;
+  padding-right: 2em;
+}
+
+.wine-blurb-title{
+  font-size: 2em;
+  font-family: 'Bungee', cursive;
+  padding-bottom: 1em;
+}
+
+.wine-blurb{
+  max-width: 15%;
+  padding-top: 3em;
+  padding-left: 2em;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.wine-blurb-container{
+
+}
+
+.bottom-banner{
+  background-color: black;
+  border-top: 3px solid lightgrey;
+  border-bottom: 3px solid lightgrey;
+  text-align: center;
+  padding-top: 3.5em;  
+  padding-bottom: 3.5em;
+}
+
+.lastest-episode-link{
+  font-size: 4em;
+  line-height: 1.125em;
+  font-family: 'Bungee Outline', cursive;
+  color: lightgrey;
+}
+
+.copyright{
+  padding-top: 2em;
+  text-align: center;
+  height: 3em;
+  background-color: black;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+
+}
+
