@@ -42,7 +42,7 @@ img.landing-photo{
 }
 
 .title-link{
-  font-size: 4em;
+  /**font-size: 4em;**/
   line-height: 1.125em;
   font-family: 'Bungee Outline', cursive, helvetica;
   /**color: lightgrey;**/
@@ -58,15 +58,17 @@ img.landing-photo{
 }
 
 .temp-title{
+  font-size: 6em;
   text-align: center;
   color: black;
   padding-top: 5rem;
 }
 
 .coming{
-  font-family: helvetica;
+  font-family: courier;
   color: lightgrey;
   padding-top: 2rem;
+  font-size: 1.5rem;
 }
 
 .menu{
