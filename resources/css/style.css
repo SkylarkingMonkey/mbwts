@@ -45,7 +45,7 @@ img.landing-photo{
   font-size: 4em;
   line-height: 1.125em;
   font-family: 'Bungee Outline', cursive, helvetica;
-  color: lightgrey;
+  /**color: lightgrey;**/
   padding-top: .5em;
   padding-right: .5em;
 }
@@ -59,7 +59,7 @@ img.landing-photo{
 
 .temp-title{
   text-align: center;
-
+  color: black;
   padding-top: 5rem;
 }
 
