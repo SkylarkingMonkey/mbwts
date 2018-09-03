@@ -3,7 +3,7 @@
         return '<item>
                 <itunes:author>Steven Lane</itunes:author>
                 <itunes:duration>'.$podcast_duration.'</itunes:duration>
-                <title>'.$title.'</title>
+                <title></title>
                 <guid isPermaLink="true">http://www.bitchinwinetalkshow.com/podcast2.php?id='.$id.'</guid>
                 <description>'.$podcast_description.'</description>
                 <category>Food</category>             
