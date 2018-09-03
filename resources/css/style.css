@@ -42,12 +42,12 @@ img.landing-photo{
 }
 
 .title-link{
-  /**font-size: 4em;**/
+  font-size: 4em;
   line-height: 1.125em;
   font-family: 'Bungee Outline', cursive, helvetica;
-  /**color: lightgrey;**/
+  color: lightgrey;
   padding-top: .5em;
-  padding-right: .5em;
+  /*padding-right: .5em;*/
 }
 
 .tite{
@@ -72,6 +72,7 @@ img.landing-photo{
 }
 
 .menu{
+  position: relative;
   background-color: black;
   width: 25%;
   padding: 0em 1em 0em 1em;
@@ -79,7 +80,11 @@ img.landing-photo{
 }
 
 .menu-link-container{
-  padding-top: 7.5em;
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 1.5em;
+
+  /*padding-top: 7.5em;*/
 }
 
 .menu-link{
@@ -124,7 +129,7 @@ img.landing-photo{
 }
 
 .insta-menu-link{
-  padding-top: 10em;
+  /*padding-top: 10em;*/
 }
 
 
@@ -155,6 +160,17 @@ img.landing-photo{
   letter-spacing: .25em;
   padding: 2.5em;
   border-bottom: 3px solid lightgrey;
+}
+
+.next-bottle-banner-2{
+  font-family: 'Bungee Outline', cursive;
+  background-color: black;
+  color: lightgrey;
+  text-align: center;
+  font-size: 3.5em;
+  letter-spacing: .25em;
+  padding: 2.5em;  
+  border-bottom: 1px solid lightgrey;
 }
 
 .next-bottle{
@@ -209,6 +225,11 @@ img.landing-photo{
   padding-bottom: 3.5em;
 }
 
+.bottom-banner-2{
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+}
+
 .lastest-episode-link{
   font-size: 4em;
   line-height: 1.125em;
@@ -227,9 +248,34 @@ img.landing-photo{
 }
 
 .connect-box{
+  font-family: 'Bungee Hairline', cursive;
+  font-size: 1.5em;
+  line-height: 2em;
+
   background-color: black;
   color: white;
   padding: 3em 5em 3em 5em;
+  text-align: center;
+}
+
+.smush-box{
+  width: 35%;
+  margin: auto;
+}
+
+.disclaimer{
+  font-size: 3em;
+  letter-spacing: 2px;
+}
+
+.extra-disclaimer{
+  font-size: .25em;
+}
+
+.tinker-link {
+  text-decoration: none;
+  color: lightgrey;
+  font-style: italic;
 }
 
 
@@ -316,3 +362,502 @@ img.landing-photo{
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #FFDD1B, 0 0 35px #FFDD1B, 0 0 40px #FFDD1B, 0 0 50px #FFDD1B, 0 0 75px #FFDD1B;
   }
 }
+
+.mobile-top-page-links{
+  display: flex;
+  justify-content: space-between;
+}
+
+.podcast-episode-box-frame{
+  background-color: black;
+}
+
+.podcast-episode-box{
+  width: 60%;
+  margin: 0 auto;
+  background-color: black;
+  color: lightgrey;
+  font-family: 'Bungee Hairline', cursive;
+
+}
+
+
+/*======================== sharing is a gift bar ==========================*/
+
+.sharing-is-a-gift-bar {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  border-radius: 0px 0px 20px 5px;
+  margin-top: 0;
+  margin-bottom: .25rem;
+  width: 100%;
+
+}
+
+.sharing-buttons{
+  display: inline-block;
+}
+
+.sharing-message {
+  font-size: 1.2rem;
+  font-style: italic;
+  opacity: .7;
+  text-align: center;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1206px) {
+  .sharing-message{
+    display: none;
+  }
+}
+
+
+.resp-sharing-button__link,
+.resp-sharing-button__icon {
+  display: inline-block
+}
+
+.resp-sharing-button__link {
+  text-decoration: none;
+  color: #fff;
+  margin: 0.5em
+}
+
+.resp-sharing-button {
+  border-radius: 5px;
+  border-color: white;
+  transition: 25ms ease-out;
+  padding: 0.5em 0.75em;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+}
+
+@media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2){
+  .resp-sharing-button {
+    padding: 0.4em 0.5em;
+    border: 1px;
+  }
+}
+
+
+.resp-sharing-button__icon svg {
+  width: 1em;
+  height: 1em;
+  margin-right: 0.4em;
+  vertical-align: top
+}
+
+.resp-sharing-button--small svg {
+  margin: 0;
+  vertical-align: middle
+}
+
+/* Non solid icons get a stroke */
+.resp-sharing-button__icon {
+  stroke: #fff;
+  fill: none
+}
+
+/* Solid icons get a fill */
+.resp-sharing-button__icon--solid,
+.resp-sharing-button__icon--solidcircle {
+  fill: #fff;
+  stroke: none
+}
+
+.resp-sharing-button--twitter {
+  /*background-color: #55acee*/
+}
+
+.resp-sharing-button--twitter:hover {
+  background-color: #2795e9
+}
+
+.resp-sharing-button--pinterest {
+  background-color: #bd081c
+}
+
+.resp-sharing-button--pinterest:hover {
+  background-color: #8c0615
+}
+
+.resp-sharing-button--facebook {
+  background-color: #3b5998
+}
+
+.resp-sharing-button--facebook:hover {
+  background-color: #2d4373
+}
+
+.resp-sharing-button--tumblr {
+  background-color: #35465C
+}
+
+.resp-sharing-button--tumblr:hover {
+  background-color: #222d3c
+}
+
+.resp-sharing-button--reddit {
+  /*background-color: #5f99cf*/
+}
+
+.resp-sharing-button--reddit:hover {
+  background-color: #3a80c1
+}
+
+.resp-sharing-button--google {
+  /*background-color: #dd4b39*/
+}
+
+.resp-sharing-button--google:hover {
+  background-color: #c23321
+}
+
+.resp-sharing-button--linkedin {
+  background-color: #0077b5
+}
+
+.resp-sharing-button--linkedin:hover {
+  background-color: #046293
+}
+
+.resp-sharing-button--email {
+  /*background-color: #777*/
+}
+
+.resp-sharing-button--email:hover {
+  background-color: #5e5e5e
+}
+
+.resp-sharing-button--xing {
+  background-color: #1a7576
+}
+
+.resp-sharing-button--xing:hover {
+  background-color: #114c4c
+}
+
+.resp-sharing-button--whatsapp {
+  background-color: #25D366
+}
+
+.resp-sharing-button--whatsapp:hover {
+  background-color: #1da851
+}
+
+.resp-sharing-button--hackernews {
+background-color: #FF6600
+}
+.resp-sharing-button--hackernews:hover, .resp-sharing-button--hackernews:focus {   background-color: #FB6200 }
+
+.resp-sharing-button--vk {
+  background-color: #507299
+}
+
+.resp-sharing-button--vk:hover {
+  background-color: #a8a8a8;
+}
+
+.resp-sharing-button--facebook {
+  background-color: black;
+  border-color: white;
+  border: 1px;
+}
+
+
+
+@media only screen and (max-device-width: 320px), only screen and (orientation:portrait) and (-webkit-min-device-pixel-ratio: 2){
+  .resp-sharing-button--facebook{
+    border-bottom-left-radius: 15px;
+  }
+}
+
+@media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2){
+  .podcast-page-fb-btn{
+    border-bottom-left-radius: 5px !important;
+  }
+
+}
+
+
+
+.resp-sharing-button--facebook:hover,
+.resp-sharing-button--facebook:active {
+  background-color: #a8a8a8;
+  border-color: #a8a8a8;
+}
+
+.resp-sharing-button--twitter {
+  /*background-color: grey;
+  border-color: grey;*/
+}
+
+.resp-sharing-button--twitter:hover,
+.resp-sharing-button--twitter:active {
+  /*background-color: #a8a8a8;
+  border-color: #a8a8a8;*/
+}
+
+.resp-sharing-button--google {
+ /* background-color: grey;
+  border-color: grey;*/
+}
+
+.resp-sharing-button--google:hover,
+.resp-sharing-button--google:active {
+  /*background-color: #a8a8a8;
+  border-color: #a8a8a8;*/
+}
+
+.resp-sharing-button--email {
+ /* background-color: grey;
+  border-color: grey;*/
+}
+
+.resp-sharing-button--email:hover,
+.resp-sharing-button--email:active {
+  /*background-color: #a8a8a8;
+  border-color: #a8a8a8;*/
+}
+
+.resp-sharing-button--reddit {
+  /*background-color: grey;
+  border-color: grey;*/
+}
+
+.resp-sharing-button--reddit:hover,
+.resp-sharing-button--reddit:active {
+ /* background-color: #a8a8a8;
+  border-color: #a8a8a8;*/
+}
+
+
+
+.count-holder {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+  font-family: 'Bungee Hairline', cursive;
+  color: #fff;
+ /* background-color: grey;*/
+  margin: 0.5em;
+}
+
+
+@media only screen and (max-width: 420px) {
+  .count-holder {
+    display: none;
+  }
+}
+
+.bit-btn img{
+  max-width: 33px;
+  height: auto;
+  padding-top: 4px;
+  padding-right: 5px;
+}
+
+@media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2){
+  .bit-btn img{
+  max-width: 30px;
+
+  }
+
+}
+
+.bit-btn img:hover {
+  opacity: .7;
+}
+
+.bit-btn-support img {
+  max-width: 15%;
+  padding: 1.25rem 0 1.25rem 0;
+}
+
+.bit-btn-support img:hover {
+  opacity: .7;
+}
+
+
+
+
+/** LIGHTBOX MARKUP **/
+
+.lightbox {
+  /** Default lightbox to hidden */
+  display: none;
+
+  /** Position and style */
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+  /** Pad the lightbox image */
+  max-width: 90%;
+  max-height: 80%;
+  margin-top: 2%;
+}
+
+.lightbox:target {
+  /** Remove default browser outline */
+  outline: none;
+
+  /** Unhide lightbox **/
+  display: block;
+}
+
+.lightbox2 {
+  height: 100%;
+  width: 100%;
+  display: absolute;
+}
+
+.lightbox2 img{
+  max-height: 90% !important;
+  width: auto !important;
+}
+
+.drawing:hover {
+  opacity: .7;
+}
+
+
+
+
+/*=================== end of sharing is caring bar ===================*/
+
+/*******************  Podcaster ******************/
+
+/*background-image: url('../images/podcast_symbol.png');*/
+.audio-player {
+  border: 2px solid #dfdfdf;
+  border-radius: 2px 2px 0px 0px;
+  text-align: center;
+  display: flex;
+  flex-flow: row;
+  margin: 0.2rem 0 0 0;
+}
+
+
+.audio-player .album-image {
+  min-height: 40px;
+  width: 110px;
+  background-size: cover;
+}
+.audio-player .player-controls {
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.25rem;
+  flex: 3;
+}
+.audio-player .player-controls progress {
+  width: 80%;
+}
+.audio-player .player-controls progress[value] {
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: white;
+  color: blue;
+  height: 5px;
+}
+.audio-player .player-controls progress[value]::-webkit-progress-bar {
+  background-color: white;
+  border-radius: 2px;
+  border: 1px solid grey;
+  color: blue;
+}
+.audio-player .player-controls progress::-webkit-progress-value {
+  background-color: grey;
+}
+/*.audio-player .player-controls p {
+ font-size: .6rem;
+ }*/
+.audio-player .play-btn {
+  background-image: url('../images/play-button2.png');
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  margin: 1.5rem 0 1rem 1rem;
+}
+
+.podcast_symbol {
+  margin-top: 1.5rem;
+}
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+  .play-btn {
+    width: 35px !important;
+    height: 35px !important;   
+    margin-top: 2rem !important; 
+  }
+}
+.audio-player .play-btn:hover {
+  opacity: 0.7;
+}
+.audio-player .play-btn.pause {
+  background-image: url('http://www.lukeduncan.me/images/pause-button.png');
+}
+.audio-player .podcast_title {
+  font-size: 0.2rem;
+}
+.podcast_symbol {
+  display: block;
+  max-height: 40px;
+  width: auto;
+  margin-top: 1.75rem;
+  margin-right: 1rem;
+  opacity: 0.85;
+}
+
+.podcast_symbol_link:hover{
+  opacity: .7;
+}
+
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3){
+  .podcast_symbol{
+    max-height: 30px;
+    width: auto;
+    margin-top: 2rem;
+  }
+}
+
+/*iphone 5/se*/
+@media only screen and (max-device-width: 480px), only screen and (min-device-width: 560px) and (max-device-width: 1136px) and (-webkit-min-device-pixel-ratio: 2){
+    .podcast_symbol{
+      max-height: 30px;
+      width: auto;
+      margin-top: 2rem;
+  }
+
+  .play-btn {
+    width: 35px !important;
+    height: 35px !important;   
+    margin-top: 2rem !important; 
+  }  
+}
+
+
+
+.small-paragraph, .podcast-title, .episode-title {
+  margin-top: 0;
+  margin-bottom: 0rem;
+  margin-left: .1rem;
+  margin-right: .1rem;
+  line-height: .8rem;
+  font-size: 0.6rem;
+}
+.episode-title {
+  font-size: 1.25rem;
+}
+
+
+

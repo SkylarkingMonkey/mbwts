@@ -12,7 +12,7 @@
   </head>
   <body>
     <div class="top-container">
-      <div class="landing-photo-container"><img class="landing-photo" src="../resources/images/podcast2.jpg"></img></div>
+     <!-- <div class="landing-photo-container"><img class="landing-photo" src="../resources/images/podcast2.jpg"></img></div>
       <div class="menu">
         <div class="title">
           <a class="title-link next-bottle" href="../index.html">MY</br>BITCHIN</br>WINE</br>TALKSHOW</a>        
@@ -25,11 +25,11 @@
             <a class="insta-link" target="_blank" href="https://www.instagram.com/st.lane/"><img class="instasymbol-image" src="../resources/images/instasymbol.png"></a>
           </div>
         </div>  
-      </div>
+      </div>-->
     </div>
     <div class="banner-container">
-      <div class="next-bottle-banner">
-        <a class="next-bottle" href="podcast.php">LIBRARY OF INEBRIATION</a>
+      <div class="next-bottle-banner-2">
+        <a class="next-bottle" href="podcast.php">MY BITCHIN WINE TALKSHOW</a>
       </div>
     </div>
     <div class="podcast-episode-box-frame">
@@ -82,7 +82,7 @@
           <p><?php echo $list; ?></p>
       </div> 
     </div>  
-    <div class="bottom-banner">
+    <div class="bottom-banner bottom-banner-2">
       <a class="lastest-episode-link next-bottle" href="podcast.php">LISTEN TO THE LATEST EPISODE</a>
     </div> 
     </div>
@@ -91,7 +91,3 @@
     </div>
   </body>
 </html>
-
-
-
-<!-- .substr($content,0,-strlen($content)+250). -->
