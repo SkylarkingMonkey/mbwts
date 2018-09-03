@@ -11,8 +11,8 @@
     <link href="https://fonts.googleapis.com/css?family=Bungee+Hairline" rel="stylesheet">
     <script language="JavaScript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script language="JavaScript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>    
-    <script language="Javascript" type="text/javascript" src="../../resources/javascript/addShare.js"></script>   
-    <script language="Javascript" type="text/javascript" src="./resources/javascript/audio_functionality.js"></script>
+    <script language="Javascript" type="text/javascript" src="../resources/javascript/addShare.js"></script>   
+    <script language="Javascript" type="text/javascript" src="../resources/javascript/audio_functionality.js"></script>
   </head>
   <body>
     <div class="top-container">
