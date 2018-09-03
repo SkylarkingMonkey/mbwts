@@ -41,7 +41,7 @@
         $podcast_description = $row["podcast_description"];
         $podcast_duration = $row["podcast_duration"];
         $podcast_file_size = $row["podcast_file_size"];
-        $rss_items .= generate_rss_items($id, $title, $date, $podcast_link, $podcast_description, $podcast_duration, $podcast_file_size, $sequence);  
+        $rss_items .= generate_rss_items($id, $sequence, $title, $date, $podcast_link, $podcast_description, $podcast_duration, $podcast_file_size);  
        //var_dump($rss_channel_items);
       }        
 

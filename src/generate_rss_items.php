@@ -1,5 +1,5 @@
     <?php
-      function generate_rss_items($id, $title, $date, $podcast_link, $podcast_description, $podcast_duration, $podcast_file_size, $sequence){
+      function generate_rss_items($id, $sequence, $title, $date, $podcast_link, $podcast_description, $podcast_duration, $podcast_file_size){
         return '<item>
                 <itunes:author>Steven Lane</itunes:author>
                 <itunes:duration>'.$podcast_duration.'</itunes:duration>
