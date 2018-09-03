@@ -58,7 +58,7 @@
           <pubDate>September 5, 2018</pubDate>
           <lastBuildDate>'.$last_build_date.'</lastBuildDate>
           <itunes:category text="">Food</itunes:category>
-          <itunes:image href="../../resources/images/mbwts_podcast_logo.png"></itunes:image>
+          <itunes:image href="http://bitchinwinetalkshow.com/resources/images/mbwts_podcast_logo.png"></itunes:image>
           <itunes:explicit>yes</itunes:explicit>
           <itunes:subtitle>Drinking alone is no longer a problem.</itunes:subtitle>
           <itunes:summary>We open bottles of wine.  We drink them.  We bitch and wine about all of it.  But mostly we figure out how to enjoy almost anything.  You should too.</itunes:summary>
