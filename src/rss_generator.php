@@ -22,7 +22,7 @@
       }
 
 
-      $sql = "SELECT id, title, sequence, date, sharing, podcast_link, podcast_description, podcast_duration, podcast_file_size FROM bitchin_episodes WHERE date IS NOT NULL AND date < ? ORDER BY sequence DESC";
+      $sql = "SELECT id, sequence, title, date, sharing, podcast_link, podcast_description, podcast_duration, podcast_file_size FROM bitchin_episodes WHERE date IS NOT NULL AND date < ? ORDER BY sequence DESC";
       $query = $conn->prepare($sql);
       $query->bind_param('s', $current_date);
       $query->execute();
