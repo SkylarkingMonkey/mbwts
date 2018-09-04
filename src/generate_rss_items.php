@@ -6,9 +6,9 @@
                 <title>#'.$sequence.' - '.$title.'</title>
                 <guid isPermaLink="true">http://www.bitchinwinetalkshow.com/podcast2.php?id='.$id.'</guid>
                 <description>'.$podcast_description.'</description>
-                <itunes:category text="Food" />   
-                <itunes:category>Food</itunes:category>
-                <category>Food</category>
+                <itunes:category text="Arts">
+                <itunes:category text="Food" />
+                </itunes:category>
                 <pubDate>'.$date.'</pubDate>
                 <enclosure length="'.$podcast_file_size.'" url="'.$podcast_link.'" type="audio/mpeg"/>
                 </item>';
