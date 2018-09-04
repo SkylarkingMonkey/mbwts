@@ -8,6 +8,7 @@
                 <description>'.$podcast_description.'</description>
                 <itunes:category text="Food" />   
                 <itunes:category>Food</itunes:category>
+                <category>Food</category>
                 <pubDate>'.$date.'</pubDate>
                 <enclosure length="'.$podcast_file_size.'" url="'.$podcast_link.'" type="audio/mpeg"/>
                 </item>';
