@@ -58,6 +58,8 @@
           <pubDate>September 5, 2018</pubDate>
           <lastBuildDate>'.$last_build_date.'</lastBuildDate>
           <itunes:category text="Food" />
+          <itunes:category text="Food">Food</itunes:category>
+          <itunes:category text="Self-Help"></itunes:category>
           <itunes:image href="http://www.bitchinwinetalkshow.com/resources/images/mbwts_podcast_logo3.png"></itunes:image>
           <itunes:explicit>yes</itunes:explicit>
           <itunes:subtitle>Drinking alone is no longer a problem.</itunes:subtitle>
