@@ -146,6 +146,26 @@ a {
 
 
 
+.steven-title{
+  position: absolute;
+  right:0;
+  bottom:0;
+  padding-right: .2em;
+  padding-bottom: .2em;
+  font-family:'Bungee Outline', cursive, helvetica;
+  font-size: 3em;
+  -webkit-filter: invert(100%);
+  filter: invert(100%);
+  mix-blend-mode: difference;
+  line-height: 1.25em;
+}
+
+
+@media only screen and (max-width: 450px){
+  .steven-title{
+    font-size: 2.25em;
+  }
+}
 
 img.landing-photo{
   display: block;

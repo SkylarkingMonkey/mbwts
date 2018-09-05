@@ -19,8 +19,9 @@
     <div class="top-container">
       <div class="landing-photo-container">
         <img class="landing-photo" src="../resources/images/podcast2.jpg"></img>
-        <div class="overlap-title upper-connect"><p><a class="my">MY</a><a class="mobile-font">BITCHIN</a></p></div>
-        <div class="overlap-title lower"><p>WINE<br/>TALKSHOW</p></div>
+        <!--<div class="overlap-title upper-connect"><p><a class="my">MY</a><a class="mobile-font">BITCHIN</a></p></div>
+        <div class="overlap-title lower"><p>WINE<br/>TALKSHOW</p></div>-->
+        <div class="steven-title">MY<br/>BITCHIN<br/>WINE<br/>TALKSHOW</div>
       </div>  
     <div class="menu">
         <div class="title">
