@@ -25,7 +25,7 @@
       </div>  
     <div class="menu">
         <div class="title">
-          <a class="title-link" href="../index.html">MY</br><a class="mobile-font">BITCHIN</a></br>WINE</br>TALKSHOW</a>
+          <a class="title-link" href="../index.html">MY</br>BITCHIN</br>WINE</br>TALKSHOW</a>
         </div>
         <div class="menu-link-container">
           <div class="menu-link">
