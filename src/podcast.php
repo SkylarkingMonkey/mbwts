@@ -13,6 +13,7 @@
     <script language="JavaScript" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>    
     <script language="Javascript" type="text/javascript" src="../resources/javascript/addShare.js"></script>   
     <script language="Javascript" type="text/javascript" src="../resources/javascript/audio_functionality.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
     <div class="top-container">
