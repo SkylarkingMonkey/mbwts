@@ -48,7 +48,7 @@
           date_default_timezone_set('America/Vancouver');
           $date = date('Y-m-d H:i:s', time());
 
-          $sql = "SELECT id, title, sequence, date, sharing, podcast_link, podcast_description FROM bitchin_episodes WHERE date IS NOT NULL AND date < ? ORDER BY sequence ASC LIMIT 1";
+          $sql = "SELECT id, title, sequence, date, sharing, podcast_link, podcast_description FROM bitchin_episodes WHERE date IS NOT NULL AND date < ? ORDER BY sequence DESC LIMIT 1";
           $query = $conn->prepare($sql);
           $query->bind_param('s', $date);
           $query->execute();
