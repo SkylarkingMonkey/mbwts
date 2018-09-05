@@ -33,7 +33,7 @@
             <a class="connect-link connect-link-page" href="../connect.html">CONNECT</a>
           </div>
           <div class="menu-link insta-menu-link">
-            <a class="insta-link" target="_blank" href="https://www.instagram.com/st.lane/"><img class="instasymbol-image" src="./resources/images/instasymbol.png"></a>
+            <a class="insta-link" target="_blank" href="https://www.instagram.com/st.lane/"><img class="instasymbol-image" src="../resources/images/instasymbol.png"></a>
           </div>
         </div>  
       </div>
