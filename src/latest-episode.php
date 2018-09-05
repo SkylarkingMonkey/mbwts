@@ -69,7 +69,7 @@
             $list .= generate_podcaster($id, $title, $sequence, $podcast_link);
             $list .= generate_sharing_buttons_for_podcast_page($title, $id, $sharing, $podcast_description);
             //$list .= '<div class="article-box"><a class="permalink" href="index.php?id='.$id.'">Permalink for ' .$title. '</a><p></div><br /><br />';
-          }*/
+          }
           ?>
           <br /><p class="mobile-top-page-links"><a class="itunes-link internal-link" href="../we-hope.html" target="_blank">Listen on Itunes</a><!--<a class="reverse-order internal-link" href="">Start at the beginning</a>--></p><br /><br /> 
           <p><?php echo $list; ?></p>
