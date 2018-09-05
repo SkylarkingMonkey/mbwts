@@ -16,24 +16,39 @@
   </head>
   <body>
     <div class="top-container">
-      <div class="landing-photo-container"><img class="landing-photo" src="../resources/images/podcast2.jpg"></img></div>
-      <div class="menu">
+      <div class="landing-photo-container">
+        <img class="landing-photo" src="../resources/images/podcast2.jpg"></img>
+        <div class="overlap-title upper-connect"><p><a class="my">MY</a><a class="mobile-font">BITCHIN</a></p></div>
+        <div class="overlap-title lower"><p>WINE<br/>TALKSHOW</p></div>
+      </div>  
+    <div class="menu">
         <div class="title">
-          <a class="title-link next-bottle" href="../index.html">MY</br>BITCHIN</br>WINE</br>TALKSHOW</a>        
+          <p class="title-link" href="./index.html">MY</br><a class="mobile-font">BITCHIN</a></br>WINE</br>TALKSHOW</p>
         </div>
         <div class="menu-link-container">
           <div class="menu-link">
-            <a class="connect-link" href="../connect.html">CONNECT</a>
-          </div>        
+            <a class="podcast-link podcast-link-page" href="./src/podcast.php">PODCAST</a>
+          </div>
+          <div class="menu-link">
+            <a class="connect-link connect-link-page" href="../connect.html">CONNECT</a>
+          </div>
           <div class="menu-link insta-menu-link">
-            <a class="insta-link" target="_blank" href="https://www.instagram.com/st.lane/"><img class="instasymbol-image" src="../resources/images/instasymbol.png"></a>
+            <a class="insta-link" target="_blank" href="https://www.instagram.com/st.lane/"><img class="instasymbol-image" src="./resources/images/instasymbol.png"></a>
           </div>
         </div>  
       </div>
     </div>
+    <div class="menu-link-container-mobile">
+      <div class="menu-link">
+        <a class="podcast-link podcast-link-page" href="./src/podcast.php">PODCAST</a>
+      </div>
+      <div class="menu-link">
+        <a class="connect-link connect-link-page" href="../connect.html">CONNECT</a>
+      </div>
+    </div>  
     <div class="banner-container">
       <div class="next-bottle-banner">
-        <a class="next-bottle" href="podcast.php">LIBRARY OF INEBRIATION</a>
+        <a class="next-bottle drinking-next" href="podcast.php">LIBRARY OF INEBRIATION</a>
       </div>
     </div>
     <div class="podcast-episode-box-frame">
@@ -87,7 +102,7 @@
       </div> 
     </div>  
     <div class="bottom-banner">
-      <a class="lastest-episode-link next-bottle" href="podcast.php">LISTEN TO THE LATEST EPISODE</a>
+      <a class="lastest-episode-link next-episode-link" href="./latest-episode.php">LISTEN TO THE LATEST EPISODE</a>
     </div> 
     </div>
     <div class="copyright">

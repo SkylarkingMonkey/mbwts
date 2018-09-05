@@ -31,7 +31,121 @@ a {
   max-width: 75%;
   background-color: black;
   padding-bottom: -25px;
+
+
 }
+
+.overlap-title{
+  display: none;
+}
+
+@media only screen and (max-width: 700px){
+  .next-bottle-connect{
+    font-size: .75em;
+  }
+}
+
+@media only screen and (max-width: 595px){
+  .next-bottle-connect{
+    font-size: .5em;
+    padding:.2em;
+    line-height: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 750px){
+  .landing-photo-container{
+    position: relative;
+    max-width: 100%;
+  }
+
+  .top-container{
+    position: relative;
+    text-align: right;
+  }
+  .overlap-title{
+    display: block;
+    position: absolute;
+    font-size: 4.5em;
+    line-height: 1.1em;
+    font-family: 'Bungee Hairline', cursive;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    mix-blend-mode: difference;
+    font-weight: 900;
+    text-align: right;
+   /* font: 900 35vmin/35vh cookie, cursive;*/
+  }
+
+  .upper{
+    text-align: left;
+    font-size: 5.5em;
+    top: 0;
+    left: 0;
+    padding-left: .2em;
+    padding-top: .2em;
+  }
+
+  .upper-connect{
+   
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    right: 0;
+    padding-right: .2em;
+  }
+
+  .lower{
+    bottom:0;
+    right: 0;
+    padding-right: .2em;
+    padding-bottom: .2em;
+  }
+}
+
+
+@media only screen and (max-width: 750px){
+   .overlap-title{
+    font-size: 2.5em;
+   }
+
+   .upper{
+    font-size: 3.5em;
+   }
+}
+
+@media only screen and (max-width: 430px){
+  .overlap-title{
+    font-size: 3em;
+  }
+
+  .upper{
+    font-size: 3em;
+  }
+
+  .my{
+    font-size: .55em;
+    padding-bottom: .75em;
+  }
+
+}
+
+@media only screen and (max-width: 400px){
+  .overlap-title{
+    font-size: 2.25em;
+  }
+
+  .upper{
+    font-size: 2.25em;
+  }
+
+  .my{
+    font-size: .25;
+  }
+}
+
+
+
 
 img.landing-photo{
   display: block;
@@ -50,12 +164,18 @@ img.landing-photo{
   /*padding-right: .5em;*/
 }
 
-.tite{
-  text-align: right;
-
-
-
+@media only screen and (max-width: 1278px){
+  .title-link{
+    font-size: 3em;
+  }
 }
+
+@media only screen and (max-width: 975px){
+  .title-link{
+    font-size: 2.5em;
+  }
+}
+
 
 .temp-title{
   font-size: 1rem;
@@ -87,6 +207,12 @@ img.landing-photo{
   /*padding-top: 7.5em;*/
 }
 
+@media only screen and (max-width: 750px){
+  .menu{
+    display: none;
+  }
+}
+
 .menu-link{
   padding: 1em;
   font-family: 'Bungee Outline', cursive, helvetica;
@@ -102,6 +228,14 @@ img.landing-photo{
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
   transition: all 0.5s;
+}
+
+
+.podcast-link-page{
+  color: #fff;
+  -webkit-animation: neon1 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon1 1.5s ease-in-out infinite alternate;
+  animation: neon1 1.5s ease-in-out infinite alternate;
 }
 
 .podcast-link:hover{
@@ -126,6 +260,20 @@ img.landing-photo{
   -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
   -moz-animation: neon3 1.5s ease-in-out infinite alternate;
   animation: neon3 1.5s ease-in-out infinite alternate;  
+}
+
+.connect-link-page{
+  color:#FFDD1B;
+  -webkit-animation: neon3 1.5s ease-in-out infinite alternate;
+  -moz-animation: neon3 1.5s ease-in-out infinite alternate;
+  animation: neon3 1.5s ease-in-out infinite alternate;  
+}
+
+
+@media only screen and (max-width: 885px){
+  .connect-link, .podcast-link{
+    font-size: 1.8em;
+  }  
 }
 
 .insta-menu-link{
@@ -162,6 +310,98 @@ img.landing-photo{
   border-bottom: 3px solid lightgrey;
 }
 
+@media only screen and (max-width: 1278px){
+  .drinking-next{
+    font-size: .75em;
+  }
+}
+
+@media only screen and (max-width: 1095px){
+  .drinking-next{
+    font-size: .6em;
+  }
+  .next-bottle-banner{
+    padding: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 885px){
+  .drinking-next{
+   /* font-size: .4em;*/
+  }
+  .next-bottle-banner{
+    padding: .8em;
+  }  
+}
+
+@media only screen and (max-width: 840px){
+  .drinking-next{
+    font-size: .4em;
+  }
+}
+
+@media only screen and (max-width: 750px){
+  .menu-link-container{
+    display: none;
+  }
+}
+
+
+.menu-link-container-mobile{
+  display: none;
+}
+
+@media only screen and (max-width: 750px){
+  .menu-link-container-mobile{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background-color: black;
+    padding-top: 1em;
+    border-bottom: 3px white;
+    font-family: 'Bungee Hairline', cursive;
+  }
+
+  .connect-link{
+    font-family: 'Bungee Hairline', cursive;
+  }
+
+  .podcast-link{
+    font-family: 'Bungee Hairline', cursive;
+  }
+
+  .next-bottle-banner{
+    border-top: 3px solid lightgrey;
+  }
+
+  .title-link{
+    font-family: 'Bungee Hairline', cursive;
+  }
+
+  .mobile-font{
+    font-family: 'Bungee Outline', cursive, helvetica;
+  }
+
+  .drinking-next{
+    font-family: 'Bungee Hairline', cursive;
+    padding: .1em;
+    font-size: .4em;
+  }
+
+
+}
+
+@media only screen and (max-width: 430px){
+
+  .drinking-next{
+    line-height: 1.3em;
+    letter-spacing: 1px;
+  }
+
+
+}
+
+
 .next-bottle-banner-2{
   font-family: 'Bungee Outline', cursive;
   background-color: black;
@@ -173,12 +413,34 @@ img.landing-photo{
   border-bottom: 1px solid lightgrey;
 }
 
+@media only screen and (max-width: 930px){
+  .latest-episode-title{
+    padding-top: 2em;
+    padding-left: .5em;
+    padding-right: .5em;
+    padding-bottom: 2em;
+  }
+}
+
+@media only screen and (max-width: 870px){
+  .latest-episode-library-link{
+    padding: 1em;
+  }
+}
+
+
 .next-bottle{
   text-decoration:none;
   color: lightgrey;  
 }
 
 .next-bottle:hover{  
+  -webkit-animation: neon2 1s ease-in-out infinite alternate;
+  -moz-animation: neon2 1s ease-in-out infinite alternate;
+  animation: neon2 1s ease-in-out infinite alternate;
+}
+
+.next-episode-link{
   -webkit-animation: neon2 1s ease-in-out infinite alternate;
   -moz-animation: neon2 1s ease-in-out infinite alternate;
   animation: neon2 1s ease-in-out infinite alternate;
@@ -205,6 +467,14 @@ img.landing-photo{
   padding-bottom: 1em;
 }
 
+@media only screen and (max-width: 1275px){
+  .wine-blurb-title{
+    line-height: 1.2em;
+  }
+}
+
+
+
 .wine-blurb{
   max-width: 15%;
   padding-top: 3em;
@@ -215,6 +485,72 @@ img.landing-photo{
 .wine-blurb-container{
 
 }
+
+@media only screen and (max-width: 1200px){
+  .wine-blurb-paragraph{
+    font-size: .8em;
+  }
+
+  .wine-blurb{
+    max-width: 20%;
+  }
+}
+
+@media only screen and (max-width: 1100px){
+  .wine-blurb-paragraph{
+    font-size: .6em;
+  }
+}
+
+@media only screen and (max-width: 975px){
+  .wine-blurb{
+    max-width: 30%;
+  }
+}
+
+@media only screen and (max-width: 750px){
+  .wine-blurb-paragraph {
+    font-size: 1em;
+  }
+}  
+
+
+@media only screen and (max-width: 740px){
+  .coming-wine{
+    justify-content: space-around;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .wine-blurb-paragraph{
+    font-size: .75em;
+  }
+
+  .wine-blurb-title{
+  font-size: 1.8em;
+  font-family: 'Bungee', cursive;
+  padding-bottom: .25em;
+  }
+
+  .wine-blurb{
+    max-width: 45%;
+    padding-right: 2em;
+  }
+
+  .coming-wine-graphic{
+    max-width: 45%;
+  }
+
+  .wine-graphic-image{
+    max-width: 100%;
+  }
+
+}
+
+
+
+
+
 
 .bottom-banner{
   background-color: black;
@@ -263,9 +599,26 @@ img.landing-photo{
   margin: auto;
 }
 
+@media only screen and (max-width: 850px){
+  .smush-box{
+    width: 100%;
+  }
+}
+
 .disclaimer{
   font-size: 3em;
   letter-spacing: 2px;
+  line-height: 1.25em;
+}
+
+@media only screen and (max-width: 550px){
+  .connect-box{
+    padding: 3em 1em 3em 1em;
+  }
+
+  .disclaimer{
+    font-size:2.5em;
+  }
 }
 
 .extra-disclaimer{
