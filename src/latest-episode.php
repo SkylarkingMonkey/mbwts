@@ -39,7 +39,7 @@
       <div class="podcast-episode-box">
 
           <?php
-/*          ini_set('display_errors', 'On');
+          ini_set('display_errors', 'On');
           include_once"./connect_to_mysql.php";
           include_once"./sharing_function.php";
           include_once"./podcaster.php";
