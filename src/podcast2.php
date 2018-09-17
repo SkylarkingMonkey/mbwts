@@ -79,7 +79,7 @@
             //$list .= '<div class="article-box"><a class="permalink" href="index.php?id='.$id.'">Permalink for ' .$title. '</a><p></div><br /><br />';
           }
           ?>
-          <br /><p class="mobile-top-page-links"><a class="itunes-link internal-link" href="FILL THIS IN WITH ITUNES LINK" target="_blank">Listen on Itunes</a><!--<a class="reverse-order internal-link" href="">Start at the beginning</a>--></p><br /><br /> 
+          <br /><p class="mobile-top-page-links"><a class="itunes-link internal-link" href="https://itunes.apple.com/ca/podcast/my-b-tchin-wine-talkshow/id1435117003" target="_blank">Listen on Itunes</a><!--<a class="reverse-order internal-link" href="">Start at the beginning</a>--></p><br /><br /> 
           <p><?php echo $list; ?></p>
       </div> 
     </div>  
